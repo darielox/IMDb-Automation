@@ -19,9 +19,3 @@ This repository contains automated tests for IMDb's website, focusing on search 
 - **TestNG**: Used for organizing tests and managing workflows.
 - **Allure**: To generate comprehensive and visually appealing test reports.
 - **ChromeDriver**: Primary browser for test execution.
-
-## Setup
-To run these tests locally, follow these steps:
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourgithubusername/imdb-testing.git
