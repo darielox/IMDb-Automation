@@ -30,6 +30,17 @@ public class NavigateToBestPictureWinnersTest extends BaseTest {
         sortByDropdown.selectByVisibleText("IMDb Rating"); // Use the actual text that appears for the option, adjust as needed
         Thread.sleep(2000);
 
+        // Interact with the Descending order
+        WebElement descendButton = driver.findElement(By.cssSelector("span[title='Descending order']"));
+        descendButton.click();
+        Thread.sleep(2000);
+
+        // Interact with the Ascending order
+        WebElement ascendButton = driver.findElement(By.cssSelector("span[title='Ascending order']"));
+        ascendButton.click();
+        Thread.sleep(2000);
+
+        // Interact with the Grid View
         WebElement gridViewButton = driver.findElement(By.cssSelector("span[title='Grid view']"));
         gridViewButton.click();
         Thread.sleep(2000);
