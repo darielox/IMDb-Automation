@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="AutomationProject">
+        <classes>
+
+            <class name="SearchAndVerifyMovieTest"/>
+            <class name="AdvanceSearch"/>
+            <class name="IMDbPersonLinkTest"/>
+            <class name="IMDbCriticsNavigationTest"/>
+            <class name="NavigatePhotosTest"/>
+            <class name="NavigateMoreLikeThisSectionTest"/>
+            <class name="NavigateToBestPictureWinnersTest"/>
+            <class name="videoPlayer"/>
+        </classes>
+    </test>
+</suite>
